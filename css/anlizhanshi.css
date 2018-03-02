@@ -124,9 +124,10 @@
     position: relative;
 }
 #two{
-	width: 100%;
+	width: 1366px;
 	height: 284px;
 	background-color: #bdcbd4;
+	margin: 0 auto;
 }
 .two_content{
 	width: 1200px;
@@ -502,9 +503,8 @@
 	margin-left: 0;
 }
 #eight{
-	width: 100%;
+	width: 1366px;
 	height: 363px;
-	
 	margin: 45px auto 60px;
 	
 }
@@ -552,9 +552,10 @@
 	position: absolute;
 }
 #banquan{
-	width: 100%;
+	width: 1366px;
 	height: 56px;
 	background-color: #191919;
+	margin: 0 auto;
 }
 .banquan_left{
 	height: 12px;
@@ -847,9 +848,9 @@
 	margin-left: 0;
 }
 #bottom{
-	width: 100%;
+	width: 1366px;
 	height: 520px;
-	margin-top: 80px;
+	margin: 80px auto 0;
 	background-color: #235975;
 }
 .bottom_content{

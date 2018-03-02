@@ -37,9 +37,10 @@
 	line-height: 36px;
 }
 #head{
-	width: 100%;
+	width: 1366px;
 	height: 80px;
 	background-color: #fafafa;
+	margin: 0 auto;
 }
 .head_content{
 	width: 1200px;
@@ -148,9 +149,10 @@
     position: relative;
 }
 #two{
-	width: 100%;
+	width: 1366px;
 	height: 284px;
 	background-color: #bdcbd4;
+	margin: 0 auto;
 
 }
 .two_content{
@@ -532,9 +534,9 @@
 	margin-left: 0;
 }
 #bottom{
-	width: 100%;
+	width: 1366px;
 	height: 520px;
-	margin-top: 80px;
+	margin: 80px auto 0;
 	background-color: #235975;
 }
 .bottom_content{
@@ -543,12 +545,13 @@
 	margin: 0 auto;
 }
 #zuidibu{
-	width: 100%;
+	width: 1366px;
 	height: 32px;
 	text-align: center;
 	background-color: #191919;
 	padding-top: 14px;
 	padding-bottom: 10px;
+	margin: 0 auto;
 }
 #zuidibu p{
 	font-size: 11px;

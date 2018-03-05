@@ -1,0 +1,392 @@
+.head_content_middle_caidan_xuanzhong_right1{
+	width: 8px;
+	height: 8px;
+	
+	border-width: 0 2px 2px 0;
+	border-color: #2b6c8c;
+	border-style: solid;
+	float: left;
+	/* margin-top: 19px; */
+	position: absolute;
+	top: 46px;
+	right: 8px;
+}
+.chanpin_item1{
+	width: 326px;
+	height: 326px;
+	position: absolute;
+	background-color: rgba(51, 102, 127, 0.8);
+	top: 22px;
+	left: 26px;
+	opacity: 0;
+
+}
+.chanpin_img_item:hover .chanpin_item1{
+ 	
+ 	opacity:1 ;
+}
+.chanpin_img_item:hover .chanpin_img_item1{
+	box-shadow: 0 10px 20px 5px #ccc;
+}
+.head_content_right_sousuo p{
+	font-size: 13px;
+	color: #5c5c5c;
+	font-family: 'iconfont'; 
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	font-weight: bold;
+}
+.head_content_middle_caidan_xuanzhong_left1 {
+    width: 8px;
+    height: 8px;
+   position: absolute;
+   top: 24px;
+   left: -8px;
+    border-width: 2px 0 0 2px;
+    border-color: #2b6c8c;
+    border-style: solid;
+    float: left;
+}
+.henggang_left_middle h5{
+	font-size: 6px;
+	text-align: center;
+	font-family: 'iconfont'; 
+	color: #858586;
+	line-height: 36px;
+}
+#head{
+	width: 1366px;
+	height: 80px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+.head_content{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	
+	
+}
+.head_content_left{
+	float: left;
+	margin-left: 7px;
+	
+
+}
+.head_content_left img{
+	width: 56px;
+	height: 59px;
+	margin-top: 9px;
+	float: left;
+	display:block; 
+}
+.head_content_biaoti{
+	width: 50px;
+	height: 48px;
+	padding: 17px 0 15px 4px;
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
+	color: #2b6c8c;
+	float: left;
+}
+.head_content_middle{
+	float: left;
+	margin-left: 280px;
+}
+.head_content_right{
+	float: right;
+	margin-right: 40px;
+}
+.head_content_middle_caidan{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	margin-right: 40px;
+	color: #484848;
+	line-height: 80px;
+	float: left;
+}
+.head_content_middle_caidan1{
+	color: #2b6c8c;
+	float: left;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	line-height: 28px;
+}
+.head_content_middle_caidan_xuanzhong{
+	float: left;
+	width: 90px;
+	height: 28px;
+	
+	margin-top:26px;
+	margin-right: 21px;
+}
+.head_content_middle_caidan_xuanzhong_left{
+	width: 8px;
+	height: 8px;
+	margin-right: 8px;
+	border-width: 1px 0 0 1px;
+	border-color: #2b6c8c;
+	border-style: solid;
+	float: left;
+}
+.head_content_middle_caidan_xuanzhong_right{
+	width: 8px;
+	height: 8px;
+	margin-left: 8px;
+	border-width: 0 1px 1px 0;
+	border-color: #2b6c8c;
+	border-style: solid;
+	float: left;
+	margin-top: 19px;
+}
+.head_content_right_sousuo{
+	width: 168px;
+	height: 22px;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+    margin-top: 26px;
+    position: relative;
+}
+
+.qiye{
+	width:1366px;
+	height:444px;
+	/* background:yellow; */
+	margin: 0 auto;
+}
+.img_left{
+	width:344px;
+	height:372px;
+	margin-right:48px;
+	float: left;
+}
+.img_wenzi{
+	width:553px;
+	height:372px;
+	/* background:red; */
+	float: left;
+}
+.img_wenzi h1{
+	font-family:San Francisc Display;
+	font-size:20px;
+	font-weight:bold;
+	color:#1d1d1d ;
+	margin-top: -4px;
+    margin-bottom: -12px;
+}
+.img_wenzi h2{
+	font-family:San Francisc Display;
+	font-size:38px;
+	font-weight:bold;
+	color:#1d1d1d ;
+}
+.wenzi_line{
+	margin-top:14px;
+	margin-bottom:14px;
+	height:3px;
+	width:100%;  
+}
+.wenzi_line1{
+	width:116px;
+	height:3px;
+	background:#f5c813;
+	float: left;
+}
+.wenzi_line2{
+	width:436px;
+	height:3px;
+	background:#245974;
+	float: left;
+}
+.img_wenzi h3{
+	font-size:20px;
+	font-weight:normal;
+	color:#1d1d1d ;
+}
+.img_wenzi h4{
+	font-family:San Francisc Display;
+	font-size:18px;
+	font-weight:normal;
+	color:#1d1d1d ;
+	margin-bottom:12px;
+	margin-top:12px;
+}
+.img_wenzi p{
+	font-size:14px;
+	font-weight:bold;
+	color:#7b7b7b;
+}
+.wenzi_jia{
+	width: 135px;
+	height:31px;
+	border:2px solid #000000 ;
+	text-align:center;
+}
+.wenzi_jia span{
+	width: 104px;
+	height:31px;
+	line-height:26px;
+	color:#000;
+	font-size:24px; 
+	font-weight:bold;
+	float: left;
+
+}
+.wenzi_jia p{
+	width: 27px;
+	height:27px;
+	background:#245974;
+	font-size:24px;
+	color:#fff;
+	float:right;
+	line-height:27px;
+	border-left:2px solid #000000 ;
+}
+.img_right{
+	float:right;
+	width:251px;
+	height:444px;
+	/* background:pink; */
+}
+.img_right1{
+	width: 161px;
+	height: 283px;
+	background:#f5c813; 
+}
+.img_right img{
+	width: 239px;
+	height: 433px;
+	margin-left:14px;
+	margin-top:-264px;
+}
+.hydt{
+	width:1013px;
+	/* height:798px; */
+	margin:0 auto;
+	/* background:blue; */
+	overflow:hidden;
+	position: relative;
+}
+.hydt1{
+	width: 159px;
+	height:283px;
+	/* margin-left:15px; */
+	margin-top:33px;
+	background:#245974;
+}
+.hydt2{
+	width:999px;
+	height:301px;
+	background:#000000;
+	margin-top:-316px; 
+	margin-left:15px; 
+	color:#fff;
+	float: left;
+	position: relative;
+	overflow:hidden;
+}
+.hydt2 h1{
+	font-size:38px;
+	font-family:San Francisc Display;
+	margin-left:169px; 
+	margin-top:50px;
+}
+.hydt2 p{
+	font-size:20px;
+	margin-left:169px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.hydt2 span{
+	font-size:32px;
+	font-weight:bold;
+	margin-left:169px;
+}
+.hydt h2{
+	font-size:124px;
+	color: #245974;
+	position:absolute;
+	top:215px;
+	left:175px;
+}
+.hydt2 img{
+	height:301px;
+	position:absolute;
+	top:70px;
+	right: 0;
+}
+.huodo{
+	width: 449px;
+	height:138px;
+	background:#fff;
+	border-right:5px solid #f5c813;
+	float: right;
+	margin-right:77px;
+	margin-top:30px;
+	color: #000;
+}
+.wenzi_jia2{
+	float: left;
+	margin-top: 295px;
+	margin-left:190px;
+}
+.huodo p{
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.huodo span{
+	font-size:14px;
+	color:#636363;
+}
+.huodo2{
+	border: 0;
+	/* background:#fbfbfb; */
+}
+.sh_content{
+	width:993px;
+	height:323px;
+	background: #fff;
+	margin: 0 auto;
+}
+.sh_content img{
+	width:513px;
+	height:323px;
+	float: left;
+}
+.sh_content2{
+	width:390px;
+	height:323px;
+	/* background:pink; */
+	float: right;
+	color: #000000;
+}
+.sh_content2 h1{
+	font-family:Century Gothic;
+	font-size:16px;
+	letter-spacing:2px;
+
+}
+.sh_content2 h2{
+	font-family:Century Gothic;
+	font-size:106px;
+	float: left;
+	margin-top: -13px;
+    margin-left: -15px;
+}
+.sh_content2 h3{
+	font-family:Century Gothic;
+	font-size:54px;
+	float: left;
+}
+.sh_content2 p{
+	font-size:24px;
+	/* font-weight:bold; */
+	color: #727272;
+}
+.wenzi_jia3{
+	margin-top: 32px;
+	margin-left:0;
+}

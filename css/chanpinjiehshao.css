@@ -412,11 +412,10 @@
 	top: -2px;
 	right: 36px;
 }
-#four{
+.four{
 	width: 1200px;
 	height: 794px;
 	margin: 0 auto;
-	
 }
 .yiru_yuan p{
 	font-size: 10px;
@@ -792,4 +791,38 @@
 }
 .four_fangkuang img:hover{
 	box-shadow: 0 10px 20px 5px #ccc; 
+}
+
+.dive_left{
+	cursor: pointer;
+}
+.dive_middle{
+	cursor: pointer;
+}
+.dive_right{
+	font-size: 24px;
+	color: #4e4e4e;
+	margin-right: 26px;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+#fours{
+	width: 1200px;
+	height: 794px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+.four{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0;
+}
+.four-active{
+	z-index: 99;
+	opacity: 1;
 }

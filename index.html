@@ -172,7 +172,7 @@
 				</div>
 			</div>
 			<div class="anli_neirong">
-				<div class="anli_neirong_img">
+				<div class="anli_neirong_img active">
 
 					<img src="img/aa1.png" alt="">
 					<div class="anli_neirong_img_left">
@@ -243,19 +243,19 @@
 				</div>
 				<div class="team_img1">
 					<img src="img/aa13.png" alt="">
-					<h2>JONSON.YNAG</h2>
+					<h2 class="team-name1">JONSON.YNAG</h2>
 				</div>
 				<div class="team_img2">
 					<img src="img/aa15.png" alt="">
-					<h2>JONSON.YNAG</h2>
+					<h2 class="team-name2">JONSON.YNAG</h2>
 				</div>
 				<div class="team_img3">
 					<img src="img/aa18.png" alt="">
-					<h2>JONSON.YNAG</h2>
+					<h2 class="team-name3">JONSON.YNAG</h2>
 				</div>
 				<div class="team_img4">
 					<img src="img/aa17.png" alt="">
-					<h2>JONSON.YNAG</h2>
+					<h2 class="team-name4">JONSON.YNAG</h2>
 				</div>
 				<div class="team_leftimg">
 					<div class="team_img5">
@@ -337,5 +337,23 @@
 		<p>京ICP备11017824号-4 京ICP证130164号 北京市公安局朝阳分局备案编号:11010502000501 </p>
 	</div>
 	<!-- 底部结束 -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+        {
+            $(".anli_neirong_img_left").click (function(){
+                let index=$(this).index;
+                $(".anli_neirong_img").removeClass("active");
+                $("#anli_neirong_img1").addClass("active");
+			});
+            $(".anli_neirong_img_right").click (function(){
+                let index=$(this).index;
+                console.log("$anli_neirong_img1")
+                $("#anli_neirong_img1").removeClass("active");
+                $(".anli_neirong_img").addClass("active");
+            });
+
+
+        }
+	</script>
 </body>
 </html>

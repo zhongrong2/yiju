@@ -444,7 +444,7 @@
 	width: 1200px;
 	height: 127px;
 }
-#seven{
+.seven{
 	
 	width: 1200px;
 	margin: 34px auto 0;
@@ -811,4 +811,45 @@
 }
 .four_right_item:hover{
 	box-shadow: 0 10px 20px 5px #ccc;
+}
+
+.zhuanye{
+	cursor: pointer;
+}
+#sevens{
+    width: 1200px;
+	height: 346px;
+    margin: 34px auto 0;
+    position: relative;
+	overflow: hidden;
+}
+.seven{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	z-index: 2;
+}
+.seven-active{
+	opacity: 1;
+	z-index: 99;
+}
+.four_right_item_left{
+	position: relative;
+}
+.four_right_item:hover{
+	cursor: pointer;
+}
+.img{
+	width: 152px;
+	height: 228px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+}
+.four_right_item:hover .img{
+	opacity: 1;
+	z-index: 99;
 }

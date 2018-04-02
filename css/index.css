@@ -963,3 +963,54 @@
     top: 124px;
     left: 294px;
 }
+
+.anli_neirong_img_left,.anli_neirong_img_right{
+	cursor: pointer;
+	z-index: 999;
+}
+#anli_neirong_img1{
+	/*opacity: 0.6;*/
+}
+.anli_neirong_img{
+
+	z-index: -2;
+}
+.active{
+
+	z-index: 5;
+}
+
+.team_img1,.team_img2,.team_img3,.team_img4{
+	cursor: pointer;
+}
+.team_img1:hover{
+	border-top:3px solid #F5C911;
+}
+.team_img1:hover .team-name1{
+	color: #000;
+}
+.team_img2{
+	border-top: 3px solid #aec4d2;
+}
+.team_img2 h2{
+	color: #CCCCCC;
+}
+.team_img2:hover{
+	border-top:3px solid #F5C911;
+}
+.team_img2:hover .team-name2{
+	color: #000;
+}
+.team_img3:hover{
+	border-top:3px solid #F5C911;
+}
+.team_img3:hover .team-name3{
+	color: #000;
+}
+.team_img4:hover{
+	border-top:3px solid #F5C911;
+}
+.team_img4:hover .team-name4{
+	color: #000;
+}
+
